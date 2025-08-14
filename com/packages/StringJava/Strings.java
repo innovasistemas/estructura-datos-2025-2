@@ -1,8 +1,14 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
+package com.packages.StringJava;
 
-class Main {
-    public static void main(String[] args) {
+class Strings 
+{
+    public void showString(String text)
+    {
+        System.out.println("Cadena actual: " + text);
+    }
+    
+    public void basicOperations()
+    {
         System.out.println("Try programiz.pro".length());
         String name = "Pedro Zapata";
         System.out.println("Nombre: " + name);
@@ -34,6 +40,6 @@ class Main {
         System.out.println("pos".charAt(0));
         System.out.println("Ascii 'A':" + (int)'A');
         System.out.println("Carácter ASCII(65): " + (char)65); // ASCII(65)
-        
+        System.out.println("Hoy es jueves".substring(4, 6));
     }
 }
