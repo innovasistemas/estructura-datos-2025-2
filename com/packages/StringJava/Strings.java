@@ -1,6 +1,6 @@
 package com.packages.StringJava;
 
-class Strings 
+public class Strings 
 {
     public void showString(String text)
     {

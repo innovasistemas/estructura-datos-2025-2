@@ -1,6 +1,6 @@
-import com.packages.StringJava.*;
 import java.util.Scanner;
 
+import com.packages.StringJava.Strings;
 
 public class MainMenu 
 {
